@@ -13,3 +13,7 @@ npm install
 ```sh
 npm run dev
 ```
+
+### Demo
+
+[bmi.karoltomaszewski.com](https://www.bmi.karoltomaszewski.com)
