@@ -7,7 +7,6 @@
   font-weight: normal;
 }
 
-a,
 .green {
   text-decoration: none;
   color: hsla(160, 100%, 37%, 1);
@@ -15,10 +14,14 @@ a,
   padding: 3px;
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
+a {
+  color: #555;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+a:hover {
+  color: #888;
 }
 
 @media (min-width: 1024px) {
