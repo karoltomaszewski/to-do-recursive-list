@@ -16,4 +16,4 @@ npm run dev
 
 ### Demo
 
-[bmi.karoltomaszewski.com](https://www.bmi.karoltomaszewski.com)
+[bmi.karoltomaszewski.com](https://bmi.karoltomaszewski.com)
