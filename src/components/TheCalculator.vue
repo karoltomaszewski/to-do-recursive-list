@@ -81,7 +81,7 @@
     padding: 10%;
     border: solid 1px grey;
     border-radius: 16px;
-    max-width: 520px;
+    width: 520px;
     height: 400px;
 }
 
@@ -93,9 +93,10 @@ input {
     width: 100%;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (max-width: 1024px) {
   .calculator {
-    padding: 100px;
+    box-sizing: border-box;
+    max-width: 90%;
   }
 }
 </style>
