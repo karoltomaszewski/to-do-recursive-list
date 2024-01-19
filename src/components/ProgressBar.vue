@@ -47,7 +47,6 @@ export default {
 .bmi-bar {
     display: flex;
     margin: 15px 0;
-    width: 317px;
 }
 
 .bmi-bar-category + .bmi-bar-category {

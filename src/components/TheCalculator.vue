@@ -78,7 +78,7 @@
 <style scoped>
 .calculator {
     margin: auto;
-    padding: 100px;
+    padding: 10%;
     border: solid 1px grey;
     border-radius: 16px;
     max-width: 520px;
@@ -91,5 +91,11 @@ input {
     border-radius: 6px;
     border: none;
     width: 100%;
+}
+
+@media only screen and (min-width: 1024px) {
+  .calculator {
+    padding: 100px;
+  }
 }
 </style>
