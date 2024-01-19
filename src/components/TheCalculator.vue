@@ -55,8 +55,8 @@
     const height = ref(null);
     const weight = ref(null);
 
-    const bmi = computed(() => (parseFloat(weight.value) / Math.pow(parseInt(height.value) / 100, 2)).toFixed(1));
-    const currentBmiRange = computed(() => (bmiRanges.find(el => bmi.value >= el.min && bmi.value < el.max)));
+    const bmi = computed(() => ((height.value > 0 && weight.value > 0) ? (parseFloat(weight.value) / Math.pow(parseInt(height.value) / 100, 2)).toFixed(1) : null));
+    const currentBmiRange = computed(() => (bmi.value !== null ? bmiRanges.find(el => bmi.value >= el.min && bmi.value < el.max) : null));
 </script>
 
 
@@ -69,7 +69,7 @@
 
        <ProgressBar :bmi="bmi" :bmiRanges="bmiRanges" />
 
-        <div v-if="!isNaN(bmi)">
+        <div v-if="bmi !== null && currentBmiRange !== null">
             <span :style="{color: currentBmiRange.color, fontWeight: 'bold'}"> {{ bmi }} </span> {{ currentBmiRange.name }} 
         </div>
     </div>
