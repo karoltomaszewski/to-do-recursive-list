@@ -1,6 +1,6 @@
 # bmi
 
-BMI project for university credit.
+To do list project for university credit.
 
 ## Project Setup
 
@@ -16,4 +16,4 @@ npm run dev
 
 ### Demo
 
-[bmi.karoltomaszewski.com](https://bmi.karoltomaszewski.com)
+[todo.karoltomaszewski.com](https://todo.karoltomaszewski.com)

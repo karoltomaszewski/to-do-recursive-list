@@ -57,7 +57,7 @@ export default {
   }
 
     .error {
-        color: red;
+        color: rgb(245, 81, 81);
     }
 
     button {
