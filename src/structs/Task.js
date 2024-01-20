@@ -1,7 +1,7 @@
 class Task {
     constructor (name) {
         this.name = name;
-        this.id = Date.now() + Math.floor(  Math.random() * 100);
+        this.id = Date.now();
         this.children = [];        
         this.done = false;
         this.parent = null;
