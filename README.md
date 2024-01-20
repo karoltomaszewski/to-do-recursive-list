@@ -1,4 +1,4 @@
-# bmi
+# To do list
 
 To do list project for university credit.
 
